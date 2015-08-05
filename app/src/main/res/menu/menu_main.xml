@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/miCreate"
+        android:icon="@drawable/ic_setting"
+        android:onClick="onClickSetting"
+        app:showAsAction="always"
+        android:orderInCategory="5"
+        android:title="SETTING">
+    </item>
+    <item android:id="@+id/action_search"
+        android:orderInCategory="4"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+
+
+
+</menu>

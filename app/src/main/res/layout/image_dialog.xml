@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.yahoo.gridimagesearch.TouchImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullImage"
+        android:minHeight="200dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mailIcon"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:layout_alignRight="@+id/fullImage"
+        android:layout_alignBottom="@+id/fullImage"
+        android:src="@drawable/ic_mail"
+        android:layout_alignParentEnd="false" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/glassMinus"
+        android:src="@drawable/ic_gminus"
+        android:layout_toLeftOf="@+id/mailIcon"
+        android:layout_alignTop="@+id/mailIcon"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/glassPlus"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_gplus"
+        android:layout_toLeftOf="@+id/glassMinus"
+        android:layout_alignTop="@+id/mailIcon"
+        />
+</RelativeLayout>

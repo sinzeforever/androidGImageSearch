@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/GCard"
+    android:background="@drawable/border_rec"
+    >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:id="@+id/GCardImg"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GCardTitle"
+        android:paddingLeft="10dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/GCardImg"
+        android:paddingRight="5dp"/>
+</RelativeLayout>
