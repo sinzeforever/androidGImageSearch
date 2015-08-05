@@ -8,10 +8,10 @@ Time spent: **10** hours spent in total
 
 The following **required** functionality is completed:
 
-* [x ] User can **search for images** by specifying a query and launching a search. Search displays a grid of image results from the Google Image API.
-* [x ] User can click on "settings" which allows selection of **advanced search options** to filter results
-* [x ] User can configure advanced search filters such as:
-  * [x ] Size (small, medium, large, extra-large)
+* [x] User can **search for images** by specifying a query and launching a search. Search displays a grid of image results from the Google Image API.
+* [x] User can click on "settings" which allows selection of **advanced search options** to filter results
+* [x] User can configure advanced search filters such as:
+  * [x] Size (small, medium, large, extra-large)
   * [x] Color filter (black, blue, brown, gray, green, etc...)
   * [x] Type (faces, photo, clip art, line art)
   * [x] Site (espn.com)
@@ -50,6 +50,7 @@ Describe any challenges encountered while building the app.
 - [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
 - [Picasso](http://square.github.io/picasso/) - Image loading and caching library for Android
 - [TouchImageView](https://github.com/MikeOrtiz/TouchImageView) - extension of image view
+- [StaggeredGrid](https://github.com/f-barth/AndroidStaggeredGrid) - support varing sizes grid view
 
 ## License
 
